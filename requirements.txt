@@ -1,0 +1,5 @@
+streamlit==1.32.2
+qrcode==7.4.2
+pillow==10.2.0
+## Architecture
+![Architecture](docs/architecture.svg)
