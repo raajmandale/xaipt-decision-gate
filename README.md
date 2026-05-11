@@ -1,6 +1,5 @@
 <p align="center">
-<img src="./docs/hero-xaipt-decision-gate.svg" width="100%" />
-<img src="./docs/architecture.png" width="100%" />
+  <img src="./docs/hero-xaipt-decision-gate.svg" width="100%" />
 </p>
 
 ---
@@ -42,7 +41,7 @@ XAIPT Decision Gate is an early runtime-governance prototype exploring how irrev
 
 before final execution.
 
-This repository represents an early conceptual authority layer within the broader XAIPT runtime-governance ecosystem.
+This repository represents an early conceptual authority-runtime layer within the broader XAIPT ecosystem.
 
 ---
 
@@ -133,15 +132,11 @@ without exposing private XAIPT internals.
 
 ---
 
-# 🧪 Prototype Surface
+# 🧪 Governance Architecture
 
-| Component | Purpose |
-|---|---|
-| QR Approval Layer | Secondary authority simulation |
-| HOLD Runtime | Interrupt before execution |
-| Audit Logs | Runtime visibility |
-| Governance Engine | State transition simulation |
-| Runtime State Machine | Controlled execution flow |
+<p align="center">
+  <img src="./docs/architecture.png" width="100%" />
+</p>
 
 ---
 
@@ -151,14 +146,14 @@ without exposing private XAIPT internals.
 xaipt-decision-gate/
 │
 ├── README.md
-├── hero-xaipt-decision-gate.svg
-├── architecture.png
 ├── app.py
 ├── governance.py
 ├── audit_log.py
 ├── requirements.txt
 │
-└── runtime research prototype
+└── docs/
+    ├── hero-xaipt-decision-gate.svg
+    └── architecture.png
 ```
 
 ---
@@ -187,7 +182,7 @@ This repository is NOT:
 
 XAIPT Decision Gate represents an early prototype branch.
 
-The active XAIPT runtime-governance ecosystem continues at:
+The active XAIPT runtime-governance ecosystem now continues at:
 
 ## XAIPT Root
 https://github.com/raajmandale/XAIPT
