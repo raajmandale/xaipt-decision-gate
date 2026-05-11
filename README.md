@@ -100,11 +100,17 @@ This repository is:
 This repository is NOT:
 
 ❌ a banking system
+
 ❌ a UPI processor
+
 ❌ a payment gateway
+
 ❌ a production fraud engine
+
 ❌ a financial control platform
+
 🧪 Prototype Direction
+
 
 This prototype explores whether:
 
