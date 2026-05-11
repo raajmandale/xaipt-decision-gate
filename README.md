@@ -121,18 +121,24 @@ XPADI™
 Mandale-OS™
 QBAIX™
 ### 🔗 Research Links
-XAIPT Root
+### XAIPT Root
 https://github.com/raajmandale/XAIPT
-XAIPT-GUARD
+
+### XAIPT-GUARD
 https://github.com/raajmandale/XAIPT-GUARD
-Official Runtime Surface
+
+### Official Runtime Surface
 https://xaipt.com/
-Founder Website
+
+### Founder Website
 https://raajmandale.in/
-GitHub
+
+### GitHub
 https://github.com/raajmandale
-ORCID
+
+### ORCID
 https://orcid.org/0009-0005-9810-1655
+
 <p align="center">
 
 ### XAIPT™
