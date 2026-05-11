@@ -123,19 +123,14 @@ QBAIX™
 ### 🔗 Research Links
 ### XAIPT Root
 https://github.com/raajmandale/XAIPT
-
 ### XAIPT-GUARD
 https://github.com/raajmandale/XAIPT-GUARD
-
 ### Official Runtime Surface
 https://xaipt.com/
-
 ### Founder Website
 https://raajmandale.in/
-
 ### GitHub
 https://github.com/raajmandale
-
 ### ORCID
 https://orcid.org/0009-0005-9810-1655
 
