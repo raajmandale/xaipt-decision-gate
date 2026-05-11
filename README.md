@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/raajmandale/XAIPT/main/assets/svg/xaipt-hero-runtime.svg" width="100%" />
+  <img src="./hero-xaipt-decision-gate.svg" width="100%" />
 </p>
 
 ---
@@ -27,25 +27,27 @@
 
 ---
 
-### 🧠 What is XAIPT Decision Gate?
+# 🧠 What is XAIPT Decision Gate?
 
-XAIPT Decision Gate is an early runtime-governance prototype exploring how high-risk digital actions can be:
+XAIPT Decision Gate is an early runtime-governance prototype exploring how irreversible digital actions can be:
 
 - delayed
 - paused
+- bounded
 - reviewed
 - approved
 - denied
 - audit-visible
 
-before irreversible execution.
+before final execution.
 
-This repository represents an early conceptual runtime layer within the broader XAIPT ecosystem.
+This repository represents an early conceptual authority layer within the broader XAIPT runtime-governance ecosystem.
 
 ---
 
-### ⚡ Runtime Flow
+# ⚡ Runtime Execution Flow
 
+```text
 REQUEST
    ↓
 RISK DETECTED
@@ -59,90 +61,184 @@ SECONDARY REVIEW
 APPROVE / DENY
    ↓
 CONTROLLED EXECUTION
+```
+
 ---
-### 🔐 Core Runtime Concepts
-Layer	Purpose
-HOLD State	Interrupts irreversible execution
-QR Authority	Secondary trusted-device review
-Runtime Visibility	Execution remains observable
-Delay Window	Strategic friction before consequence
-Audit Playback	Runtime state reviewability
-Bounded Execution	Action remains contained until approval
+
+# 🔐 Core Runtime Concepts
+
+| Layer | Purpose |
+|---|---|
+| HOLD State | Interrupts irreversible execution |
+| Runtime Authority | Secondary review before execution |
+| QR Authority Token | Trusted approval mechanism |
+| Delay Window | Strategic friction before consequence |
+| Runtime Visibility | Execution remains reviewable |
+| Audit Logging | Governance playback visibility |
+| Bounded Execution | Action remains contained until approval |
+
 ---
-### 🌐 XAIPT Ecosystem Alignment
+
+# 🌐 XAIPT Ecosystem Alignment
 
 XAIPT Decision Gate now exists as part of the larger:
 
-XAIPT™ Runtime Governance Ecosystem
+# XAIPT™ Runtime Governance Ecosystem
 
-Main ecosystem:
+### Main Ecosystem
+- https://github.com/raajmandale/XAIPT
 
-https://github.com/raajmandale/XAIPT
+### Public Runtime Research
+- https://github.com/raajmandale/XAIPT-GUARD
 
-Public runtime branch:
+### Official Runtime Surface
+- https://xaipt.com/
 
-https://github.com/raajmandale/XAIPT-GUARD
-
-Live runtime surface:
-
-https://xaipt.com/
 ---
 
-### 🛡️ Research Boundary
+# 🛡️ Why This Exists
+
+Modern digital systems increasingly execute irreversible actions instantly:
+
+- payments
+- approvals
+- remote actions
+- account changes
+- transaction flows
+- AI-triggered execution
+- trust-based automation
+- high-risk digital decisions
+
+XAIPT explores whether:
+
+> visibility, authority review, delay windows, and bounded execution can become protection primitives in AI-era infrastructure.
+
+---
+
+# 📡 Runtime Governance Direction
+
+This prototype explores:
+
+- HOLD-before-finality systems
+- runtime interruption models
+- authority-aware execution
+- delay-window governance
+- secondary approval flows
+- runtime telemetry
+- audit playback visibility
+- bounded execution control
+
+without exposing private XAIPT internals.
+
+---
+
+# 🧪 Prototype Surface
+
+| Component | Purpose |
+|---|---|
+| QR Approval Layer | Secondary authority simulation |
+| HOLD Runtime | Interrupt before execution |
+| Audit Logs | Runtime visibility |
+| Governance Engine | State transition simulation |
+| Runtime State Machine | Controlled execution flow |
+
+---
+
+# 🧱 Repository Structure
+
+```text
+xaipt-decision-gate/
+│
+├── README.md
+├── hero-xaipt-decision-gate.svg
+├── architecture.png
+├── app.py
+├── governance.py
+├── audit_log.py
+├── requirements.txt
+│
+└── runtime research prototype
+```
+
+---
+
+# ⚠️ Research Boundary
 
 This repository is:
 
-✅ runtime-governance research
-✅ authority-flow simulation
-✅ public-safe conceptual architecture
-✅ execution-visibility exploration
+- ✅ runtime-governance research
+- ✅ authority-flow simulation
+- ✅ conceptual execution architecture
+- ✅ public-safe governance prototype
 
 This repository is NOT:
 
-❌ a banking system
+- ❌ a banking system
+- ❌ a UPI processor
+- ❌ a payment gateway
+- ❌ a fraud-monitoring engine
+- ❌ a production financial controller
+- ❌ a live transaction authority platform
 
-❌ a UPI processor
+---
 
-❌ a payment gateway
+# 🚀 Ecosystem Evolution
 
-❌ a production fraud engine
+XAIPT Decision Gate represents an early prototype branch.
 
-❌ a financial control platform
+The active XAIPT runtime-governance ecosystem continues at:
 
-🧪 Prototype Direction
+## XAIPT Root
+https://github.com/raajmandale/XAIPT
 
+## XAIPT-GUARD
+https://github.com/raajmandale/XAIPT-GUARD
 
-This prototype explores whether:
+---
 
-delay, authority review, runtime visibility, and bounded execution can become protection primitives in AI-era digital systems.
+# 👨‍💻 Founder
 
-👨‍💻 Founder
-Raaj Mandale
+## Raaj Mandale
 
 Systems Architect • Runtime Systems Research • Survivability Infrastructure
 
-Ecosystem Research
-XAIPT™
-XPADI™
-Mandale-OS™
-QBAIX™
-### 🔗 Research Links
-### XAIPT Root
-https://github.com/raajmandale/XAIPT
-### XAIPT-GUARD
-https://github.com/raajmandale/XAIPT-GUARD
-### Official Runtime Surface
-https://xaipt.com/
-### Founder Website
+### Ecosystem Research
+
+- XAIPT™
+- XPADI™
+- Mandale-OS™
+- QBAIX™
+
+---
+
+# 🌐 Research Links
+
+### Official Website
 https://raajmandale.in/
+
+### XAIPT Runtime Surface
+https://xaipt.com/
+
 ### GitHub
 https://github.com/raajmandale
+
 ### ORCID
 https://orcid.org/0009-0005-9810-1655
 
+### OpenAlex
+https://openalex.org/A5127026877
+
+### Zenodo
+https://zenodo.org/communities/xmeck/
+
+---
+
 <p align="center">
 
-### XAIPT™
-HOLD Before Finality • Visibility Before Consequence
-Human Authority Before Irreversible Execution
-</p> ```
+# XAIPT™
+
+### HOLD Before Finality • Visibility Before Consequence
+
+#### Human Authority Before Irreversible Execution
+
+</p>
