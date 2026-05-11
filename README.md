@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./hero-xaipt-decision-gate.svg" width="100%" />
+ <img src="./docs/hero-xaipt-decision-gate.svg" width="100%" />
 </p>
 
 ---
