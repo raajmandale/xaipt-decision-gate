@@ -73,7 +73,7 @@ Official Runtime Surface
 https://xaipt.com/
 
 ### 🧪 Governance Architecture
-<p align="center"> <img src="docs/architecture.png" width="100%" /> </p>
+<p align="center"> <img src="architecture.png" width="100%" /> </p>
 
 Execution states remain visible, reviewable, and authority-aware before final consequence.
 ---
@@ -110,7 +110,9 @@ bounded execution control
 without exposing private XAIPT internals.
 
 ### 🧱 Repository Structure
+
 xaipt-decision-gate/
+
 │
 ├── README.md
 ├── app.py
@@ -123,6 +125,7 @@ xaipt-decision-gate/
     └── architecture.png
 
 ---
+
 ### ⚠️ Research Boundary
 
 This repository is:
@@ -135,10 +138,15 @@ This repository is:
 This repository is NOT:
 
 ❌ a banking system
+
 ❌ a UPI processor
+
 ❌ a payment gateway
+
 ❌ a production financial controller
+
 ❌ a live transaction authority platform
+
 🚀 Ecosystem Evolution
 
 XAIPT Decision Gate represents an early prototype branch.
@@ -176,7 +184,9 @@ OpenAlex	https://openalex.org/A5127026877
 
 Zenodo	https://zenodo.org/communities/xmeck/
 <p align="center">
-XAIPT™
+
+---
+### XAIPT™
 HOLD Before Finality • Visibility Before Consequence
 Human Authority Before Irreversible Execution
-</p> ```
+</p> 
